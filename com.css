@@ -1,0 +1,88 @@
+body {
+	background-color:	black;
+}
+
+#main_warpper {
+	position:			relative;
+	margin:				0 auto;
+	width:				1000px;
+	height:				800px;
+}
+
+#content_header {
+	position:			relative;
+	float:				left;
+	width:				1000px; 
+	height:				200px;
+	background-color:	#d3d3d3;
+}
+
+#content_body {
+	position:			relative;
+	float:				left;
+	width:				1000px; 
+	height:				400px;
+	background-color:	#ffffff;
+	
+}
+
+#content_footer {
+	position:			relative;
+	float:				left;
+	width:				1000px; 
+	height:				200px;
+	background-color:	#d3d3d3;
+	
+}
+
+/* *********************content************************ */
+
+// header
+
+.real {
+	position:			absolute;
+	top:				75px;
+	left:				200px;
+	width:				600px;
+	height:				50px;
+	font-size:			25px;
+}
+
+#typing_tag {
+	position:			absolute;
+	top:				160px;
+	left:				300px;
+	width:				400px;
+	height:				150px;
+	font-size:			70px;
+	text-align:			center;
+	color:				black;
+}
+.guillemet_left {
+	position:			absolute;
+	top:				190px;
+	left:				250px;
+	font-size:			30px;
+	color:				#4682b4;
+}
+
+.guillemet_right {
+	position:			absolute;
+	top:				190px;
+	right:				250px;
+	font-size:			30px;
+	color:				#4682b4;
+}
+
+#input_text {
+	position:			absolute;
+	top:				75px;
+	left:				200px;
+	
+	/* 全てを小文字に変換する */
+	text-transform:lowercase;
+	
+	width:				600px;
+	height:				50px;
+	font-size:			25px;
+}
