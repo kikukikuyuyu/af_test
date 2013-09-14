@@ -35,6 +35,7 @@
 		//テキストボックスのイベント。何かしらアクションがあれば動作させるようにする
 		jQuery(this).on("focus blur keypress change keydown keyup", function(){
 			var t = jQuery(this).val(); //テキストボックスの値を取得
+
 			if (t.length == 0) {
 				p.html(r); //初期値へ戻す
 			}
@@ -42,7 +43,6 @@
 				p.html(t); //プレビューさせたい要素にテキストボックスの値を入れる
 			}
 		});
-		
 		return this; //このプラグインの後に他のメソッドチェーンがあっても対応できるようにする
 	}
 })(jQuery);

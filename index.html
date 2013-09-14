@@ -6,7 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="./com.css">
 		<!-- jquery1.10.1 -->
 		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script type="text/javascript" src="script.js" ></script>
 		<script type="text/javascript" src="realPre1.01.js" ></script>
+		
 	</head>
 	
 	<body>
@@ -20,7 +22,10 @@
 			
 			<div id = "content_header">
 				
-				<div class = "real">
+				<div class = "real" id ="key_down">
+					
+				</div>
+				<div id = test>
 					
 				</div>
 				
@@ -28,30 +33,22 @@
 			
 			<div id = "content_body">
 				
-				<span class="guillemet_left"> < </span>
+				<span class="guillemet_left">&#12296;</span>
 				
-				<div id = "typing_tag">
-					
-					</php
-					
-					$text = "html";
-					echo $text;
-					
-					?>
-					
-				</div>
+				<div id = "typing_tag">html</div>
 				
-				<span class="guillemet_right"> > </span>
+				<span class="guillemet_right">&#12297;</span>
 				
 			</div>
 			
 			<div id = "content_footer">
 				
-				<input id = "input_text" type="text" name="user_tag" style="ime-mode:disabled" >
+				<input id = "input_text" type="text" name="user_tag" style="ime-mode:disabled" onkeydown="key_event()">
 				
 			</div>
 			
 			
 		</div>
+		
 	</body>
 </html>
